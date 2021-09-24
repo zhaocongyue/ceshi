@@ -1,0 +1,13 @@
+git init 初始化仓库
+git config --global user.name 'zcy' 设置配置信息
+git config --list --global 查看所有的全局配置信息
+git config user.name 查看指定的配置信息
+git status 查看文件的状态
+git add 加入暂存区
+git commit -m "" 提交文件
+git commit -a -m "" 跳过暂存区直接提交文件
+git reset HEAD 取消暂存的文件
+git checkout -- 撤销对文件的修改
+git rm -f 移除git仓库和工作区的文件
+git rm --cached  移除git仓库中的文件
+git log 查看提交历史
